@@ -6,7 +6,9 @@ Overview: This project contains manual test documentation for the Swag Labs (Sau
 Project Structure:
 
 TestPlan.md – The overall test plan (this document).
+
 TestCases/ – Directory containing test case tables (organized by feature).
+
 BugReportTemplate.md – Generic bug report template.
 TestSummaryReport.md – Final test execution summary.
 README.md – This file (project overview and instructions).
