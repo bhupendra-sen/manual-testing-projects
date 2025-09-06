@@ -1,26 +1,114 @@
-The repository README provides an overview and instructions for the Swag Labs(Sauce Demo) QA projects
+Swag Labs QA Projects
+
+A collection of manual Quality Assurance (QA) artifacts for the Swag Labs (Sauce Demo) web application. Includes test plan, test cases, bug report template, and summary reports to validate functionality on Google Chrome.
+
+📌 Table of Contents
+
+About
+
+Repository Structure
+
+Installation
+
+Usage
+
+Tools Used
+
+Test Scope
+
+Contributing
+
+License
+
+📖 About
+
+This repository contains manual testing documentation for the Swag Labs Demo App
 .
 
-Overview: This project contains manual test documentation for the Swag Labs (Sauce Demo) web application. It includes the test plan, test cases, bug report template, and summary reports for validating the application’s functionality on Google Chrome.
+Deliverables include:
 
-Project Structure:
+✅ Test Plan – scope, objectives, and strategy
 
-TestPlan.md – The overall test plan (this document).
+✅ Test Cases – detailed positive & negative scenarios
 
-TestCases/ – Directory containing test case tables (organized by feature).
+✅ Bug Report Template – structured issue logging
 
-BugReportTemplate.md – Generic bug report template.
-TestSummaryReport.md – Final test execution summary.
-README.md – This file (project overview and instructions).
+✅ Test Summary Report – execution results & findings
 
-How to Execute Tests: To perform testing, open Google Chrome and navigate to https://www.saucedemo.com. Use the test cases in TestCases/ as a guide: follow each step, verify expected results, and record the outcome. For each issue found, submit a bug using the Bug Report Template. No automation is required; this is a manual test suite.
+Designed for QA learners and professionals to practice creating, organizing, and maintaining test artifacts.
 
-Tools Used: Testing is done manually in Chrome. We use standard tools like screenshots or dev console logs for evidence. Bugs are tracked in JIRA/GitHub issues. Documentation is maintained in Markdown and Excel.
+📂 Repository Structure
+SwagLabs-QA/
+│-- TestPlan.md              # The overall test plan
+│-- TestCases/               # Directory containing feature-based test case tables
+│-- BugReportTemplate.md     # Generic bug report template
+│-- TestSummaryReport.md     # Final execution summary
+│-- README.md                # Project documentation
 
-Test Scope: The test suite covers full functional testing of Swag Labs on Chrome, specifically:
-Login page (authentication scenarios)
-Inventory/product display (item listing, sorting)
-Cart page (add/remove items, navigation)
-Checkout process (checkout step 1, checkout step 2, completion)
+⚙️ Installation
 
-Each feature is validated as per the test cases.
+Clone this repository:
+
+git clone https://github.com/bhupendra-sen/manaual-testing-projects.git
+cd manaual-testing-projects
+
+
+Open the Markdown (.md) or Excel test case files in your preferred tool (VS Code, Excel, Google Sheets).
+
+▶️ Usage
+
+View Test Cases: Open the TestCases/ directory to see test cases organized by feature (Login, Inventory, Cart, Checkout).
+
+Execute Tests:
+
+Open Google Chrome.
+
+Navigate to Swag Labs Demo
+.
+
+Follow each test case step, verify the expected result, and log outcomes.
+
+Log Defects: Use the BugReportTemplate.md to record bugs with steps, expected vs. actual result, and severity/priority.
+
+Review Results: After execution, see the TestSummaryReport.md for pass/fail metrics and key findings.
+
+🛠 Tools Used
+
+Browser: Google Chrome (manual execution)
+
+Documentation: Markdown, Excel
+
+Bug Tracking: JIRA / GitHub Issues
+
+Supporting Tools: Screenshots, Chrome DevTools
+
+🎯 Test Scope
+
+This test suite validates core e-commerce flows of Swag Labs, including:
+
+🔑 Login Page – authentication scenarios (valid, invalid, locked user, empty fields)
+
+📦 Inventory Page – product listing, sorting, add/remove to cart
+
+🛒 Cart Page – view, continue shopping, checkout navigation
+
+✅ Checkout Process – Step One (user info), Step Two (overview), Completion (order confirmation)
+
+Each feature is verified through positive and negative test cases.
+
+🤝 Contributing
+
+Contributions are welcome! To contribute:
+
+Fork this repo.
+
+Create a branch:
+
+git checkout -b feature/new-testcases
+
+
+Add or update test case files.
+
+Commit & push changes.
+
+Open a Pull Request.
